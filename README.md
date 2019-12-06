@@ -4,6 +4,6 @@ Unblock the NFC automation in [Shortcuts](https://support.apple.com/guide/shortc
 
 ![NFCUnblock for iOS 13](https://i.imgur.com/u9G3otX.png)
 
-You can install the prebuilt two.debs using Filza or you could build it yourself using [theos](https://github.com/theos/theos).
+You can install the prebuilt two .deb files using Filza or you could build it yourself using [theos](https://github.com/theos/theos).
 
 Credits to [@arandomdev](https://github.com/arandomdev)
