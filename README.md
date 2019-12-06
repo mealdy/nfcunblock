@@ -1,9 +1,9 @@
 # NFCUnblock
 
-Unblock the NFC automation in [Shortcuts](https://support.apple.com/guide/shortcuts/welcome/ios) app for old iPhones. It works on iOS 13 only. [Download deb file here](https://github.com/mealdy/nfcunblock/releases/latest/download/com.leonzhu.nfcunblock_0.0.1.deb)
+Unblock the NFC automation in [Shortcuts](https://support.apple.com/guide/shortcuts/welcome/ios) app for old iPhones. It works on iOS 13 only. [Download deb files here](https://github.com/mealdy/nfcunblock/releases/latest/download/nfcunblock.zip)
 
 ![NFCUnblock for iOS 13](https://i.imgur.com/u9G3otX.png)
 
-You can install the prebuilt .deb using Filza or you could build it yourself using [theos](https://github.com/theos/theos).
+You can install the prebuilt two.debs using Filza or you could build it yourself using [theos](https://github.com/theos/theos).
 
 Credits to [@arandomdev](https://github.com/arandomdev)
