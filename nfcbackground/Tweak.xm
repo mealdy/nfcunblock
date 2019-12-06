@@ -11,16 +11,19 @@
 
 %end
 
-// Added another hook to reset the NFC, thus you don't have to wait too long to discover your tags
+// Added another hook to reset the NFC, thus you don't have to wait too long to discover your tags next time.
 
 %hook _NFHardwareManager
 - (void)handleRemoteTagsDetected:(id)arg1 {
 	%orig;
 
-	[NSThread sleepForTimeInterval:1.0];
-	NFDriverWrapper *driver = MSHookIvar<NFDriverWrapper *>(self, "_driverWrapper");
-	[driver closeSession];
-	[driver restartDiscovery];
+  [NSThread sleepForTimeInterval:1.0];
+  @try {
+    [self restartDiscovery];
+  }
+  @catch (NSException *exception) {
+    NSLog(@"%@", exception.reason);
+ }
 }
 
 %end

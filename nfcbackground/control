@@ -1,7 +1,7 @@
 Package: com.leonzhu.nfcbackground
 Name: NFCBackground
 Depends: mobilesubstrate
-Version: 0.0.2
+Version: 0.0.3
 Architecture: iphoneos-arm
 Description: An awesome MobileSubstrate tweak!
 Maintainer: Leon Zhu

@@ -1,7 +1,7 @@
 Package: com.leonzhu.nfcunblock
 Name: NFCUnblock
 Depends: mobilesubstrate
-Version: 0.0.2
+Version: 0.0.3
 Architecture: iphoneos-arm
 Description: Unblock NFC Automation feature for Shortcuts on iOS 13. iPhone 7 or later is required (your device must have a NFC chip).
 Maintainer: Leon Zhu

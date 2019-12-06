@@ -10,4 +10,4 @@ NFCUnblock_PRIVATEFRAMEWORKS = WorkflowKit
 include $(THEOS_MAKE_PATH)/tweak.mk
 
 after-install::
-	install.exec "killall -9 Shortcuts; killall -9 SpringBoard" || true
+	install.exec "killall -9 nfcd; killall -9 Shortcuts; killall -9 SpringBoard" || true
