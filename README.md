@@ -1,6 +1,6 @@
 # NFCUnblock
 
-Unblock the NFC automation in [Shortcuts](https://support.apple.com/guide/shortcuts/welcome/ios) app for old iPhones. It works on iOS 13 only.
+Unblock the NFC automation in [Shortcuts](https://support.apple.com/guide/shortcuts/welcome/ios) app for old iPhones. It works on iOS 13 only. [Download deb file here](https://github.com/mealdy/nfcunblock/releases/latest/download/com.leonzhu.nfcunblock_0.0.1.deb)
 
 ![NFCUnblock for iOS 13](https://i.imgur.com/u9G3otX.png)
 
