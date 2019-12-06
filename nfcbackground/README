@@ -1,0 +1,24 @@
+This tweak enables background NFC tag reading, when it detects a tag it will post a notification
+through the CFNotificationCenterGetDistributedCenter. the userInfo provided in the callback function
+contains a NSArray With the key data, this contains an array of tags. which contains uid and a list of records.
+records are another dictionary that contains the payload and type.
+
+userinfo diagram
+{"data":
+  [
+    {
+      "uid":string,
+      "records":
+        [
+          {
+            "payload":string,
+            "type":string
+          },
+          {
+            "payload":string,
+            "type":string
+          }
+        ]
+    }
+  ]
+}
