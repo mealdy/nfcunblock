@@ -17,14 +17,8 @@
 - (void)handleRemoteTagsDetected:(id)arg1 {
 	%orig;
 
-	NSArray *tags = [arg1 allObjects];
-	NFDriverWrapper *driver = MSHookIvar<NFDriverWrapper *>(self, "_driverWrapper");
-	for(NFTagInternal *tag in tags) {
-		[driver disconnectTag:tag tagRemovalDetect:1];
-	}
-  
 	[NSThread sleepForTimeInterval:1.0];
-	[driver openSession];
+	NFDriverWrapper *driver = MSHookIvar<NFDriverWrapper *>(self, "_driverWrapper");
 	[driver closeSession];
 	[driver restartDiscovery];
 }
